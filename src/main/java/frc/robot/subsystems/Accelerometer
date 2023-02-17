@@ -1,0 +1,29 @@
+// package frc.robot.subsystems;
+
+// import edu.wpi.first.wpilibj.ADXL362
+// import edu.wpi.first.wpilibj2.command.CommandBase;
+// import edu.wpi.first.wpilibj2.command.SubsystemBase;
+
+// public class CollisionCheck extends SubsystemBase {
+
+//     ADXL362 accels = ADXL362(getPort(), range);
+//     double xAccel;
+//     double yAccel;
+//     double zAccel;
+//     double lastXAccel;
+//     double lastYAccel;
+//     double lastZAccel;
+//     boolean run = false;
+
+//     public void updateAccel(){
+//         while(run){
+//             xAccel = accels.getX();
+//             yAccel = accels.getY();
+//             zAccel = accels.getZ();
+//         }
+//     }
+
+//     public static void stopAccelerometer(){
+//         run = false;
+//     }
+// }
